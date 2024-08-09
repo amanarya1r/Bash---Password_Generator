@@ -30,7 +30,7 @@ try_again(){
                 	echo
 			if [ $pg -eq 1 ]
 			then
-				echo -e "Do you want to clear screen?\nPress \e[31m1\e[0m for clear or any key for don't"
+				echo -e "Do you want to clear screen?\nPress \e[31m1\e[0m for clear or any digit for don't"
                 		read -p "$(echo -e ": ${red}")" optnif2
                 		echo -e "${nc}"
 			fi
